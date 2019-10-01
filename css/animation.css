@@ -1,0 +1,99 @@
+body{
+  margin: 0px;
+  font-family: helvetica;
+
+
+}
+.container{
+
+}
+.rectangle{
+  position: absolute;
+  background-color: black;
+  height: 100%;
+  width: 20vw;
+  padding: 3%;
+  box-sizing: border-box;
+  animation-name: bg-color;
+  animation-duration: 3s;
+}
+.circle{
+  position: absolute;
+  border-radius: 90px;
+  width: 20vh;
+  height: 20vh;
+  background-color: #26942d;
+  left: 25%;
+  animation-name: circle-bounce-3;
+  animation-duration: 2s;
+  animation-iteration-count: 20;
+  animation-timing-function: ease-in-out;
+}
+.circle:hover{
+  background-color: red;
+  animation-name: circle-size;
+  animation-duration: 2s;
+}
+.circle:active{
+  background-color: white;
+  border: 1pt solid black;
+}
+#animation{
+  color: #b98a21;
+  text-transform: uppercase;
+  font-size: 20px;
+  letter-spacing: 5px;
+  animation-name: text-space;
+  animation-duration: 3s;
+  animation-timing-function: ease-in-out;
+}
+@keyframes bg-color {
+  from{background-color: #4748e0;}
+  to{background-color: #1b21a8;}
+}
+@keyframes circle-bounce{
+  0%{left: 25%;
+      top: 0%;
+      border-radius: 90px;
+      width: 20vh;}
+  25%{left: 45%;
+      top: 90%;
+      border-radius: 2px;
+      width: 80vh;
+      height:.5vh;}
+  50%{left: 75%;
+      top: 45%;
+      border-radius: 90px;
+      width: 20vh;}
+  75%{left: 45%;
+      top: 15%;
+      border-radius: 90px;
+      width: 20vh;}
+  100%{left: 25%;
+      top: 0%;}
+}
+@keyframes circle-bounce-2 {
+  from{left:25%;}
+  to{left:90%;}
+}
+@keyframes text-space {
+  from{font-size: 40px;
+    letter-spacing: 30px;}
+  to{font-size: 20px;
+    letter-spacing: 5px;}
+}
+@keyframes circle-bounce-3 {
+  0%{left:25%;}
+  50%{left:75%;}
+  100%{left:25%;}
+}
+@keyframes circle-size {
+  from{
+    transform-origin:50% 50%;
+    width:20vh;
+    height:20vh;}
+  to{
+    transform-origin:50% 50%;
+    width:35vh;
+    height:35vh;}
+}
