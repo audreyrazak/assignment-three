@@ -1,0 +1,157 @@
+body {
+  font-family: 'Libre Baskerville', serif;
+  font-size: 15px;
+  color: #2b2b2b;
+  letter-spacing: 1px;
+  background-color: #d9c5f7;
+}
+
+.container1 {
+  border: solid #e61111 10px;
+  width:500px;
+  height: 220px;
+  margin: 20px;
+  padding: 20px;
+  position: absolute;
+  left: 20px;
+  top: 100px;
+
+}
+
+.container1:hover{
+  animation-name: container1;
+  animation-duration: .5s;
+}
+
+.container2 {
+  border: solid #ffea2e 10px;
+  width:500px;
+  height: 220px;
+  margin: 20px;
+  padding: 20px;
+  position: absolute;
+  left: 600px;
+  top: 100px;
+}
+
+.container2:hover{
+  animation-name: container2;
+  animation-duration: .5s;
+}
+
+.container3 {
+  border: solid #0255d2 10px;
+  width:500px;
+  height: 220px;
+  margin: 20px;
+  padding: 20px;
+  position: absolute;
+  left: 20px;
+  top: 400px;
+
+}
+.container3:hover{
+  animation-name: container3;
+  animation-duration: 2s;
+    animation-duration: .5s;
+}
+
+.container4 {
+  border: solid #49a600 10px;
+  width:500px;
+  height: 220px;
+  margin: 20px;
+  padding: 20px;
+  position: absolute;
+  left: 600px;
+  top: 400px;
+}
+.container4:hover{
+  animation-name: container4;
+  animation-duration: .5s;
+}
+.numerals {
+  color: white;
+}
+#title {
+  font-family: 'Libre Baskerville', serif;
+  margin: 20px;
+  color: #fad278;
+  font-size: 30pt;
+}
+#title2 {
+  color: #468046;
+}
+
+@keyframes container1 {
+  from{
+    left: 20px;
+    top: 100px;
+  }
+  to{
+    left: 10px;
+    top: 90px;
+  }
+}
+@keyframes container2 {
+  from{
+    left: 600px;
+    top: 100px;
+  }
+  to{
+    left: 610px;
+    top: 90px;
+  }
+}
+@keyframes container3 {
+  from{
+    left: 20px;
+    top: 400px;
+  }
+  to{
+    left: 10px;
+    top: 410px;
+  }
+}
+@keyframes container4 {
+  from{
+    left: 610px;
+    top: 410px;
+  }
+  to{
+    left: 600px;
+    top: 400px;
+  }
+}
+@media only screen and (max-width:600px){
+  body{
+    background-color: #f5c6f7;
+    font-size: 12px;
+    overflow: scroll;
+  }
+  .container1 {
+    width:350px;
+    position: absolute;
+    top: 150px;
+  }
+  .container2 {
+    width:350px;
+    position: absolute;
+    top: 450px;
+    left:20px;
+  }
+  .container3 {
+    width:350px;
+    position: absolute;
+    top: 750px;
+  }
+  .container4 {
+    width:350px;
+    position: absolute;
+    top: 1050px;
+    left:20px;
+  }
+  #title {
+    color: #f6b521;
+  }
+}

@@ -1,0 +1,70 @@
+body{
+  margin: 0px;
+  font-family: 'Open Sans', sans-serif;
+  letter-spacing:.25px ;
+  line-height: 20px ;
+
+
+}
+.sidebar{
+  position: absolute;
+  width: 25vh;
+  height: 150%;
+  padding: 2.5%;
+  box-sizing: border-box;
+  background-color: #2e4e32;
+}
+.container1{
+  position: absolute;
+  width: 375px;
+  height: 150px;
+  left: 40vh;
+  top: 100px;
+
+}
+.container2{
+  position: absolute;
+  width: 375px;
+  height: 150px;
+  left: 100vh;
+  top: 100px;
+}
+.container3{
+  position: absolute;
+  width: 375px;
+  height: 150px;
+  left: 40vh;
+  top: 500px;
+}
+.container4{
+  position: absolute;
+  position: absolute;
+  width: 375px;
+  height: 150px;
+  left: 100vh;
+  top: 500px;
+}
+#novel{
+  font-size: 35px;
+  font-style: 600 italic;
+  letter-spacing: 8px;
+  text-transform: uppercase;
+  padding: 15px;
+  position: absolute;
+  color: #b19416;
+  z-index: 1;
+
+
+}
+#arthur{
+  font-size: 15px;
+  font-style: 600;
+  letter-spacing: 0px;
+  line-height:50px ;
+  padding: 15px;
+  position: absolute;
+  color: #716b10;
+  z-index: 1;
+  top:45px;
+
+}
