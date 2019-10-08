@@ -1,0 +1,48 @@
+body{
+text-align: center;
+font-family: 'Source Sans Pro', sans-serif;
+font-weight: 400;
+background-color: #dedede;
+}
+.header{
+  position: absolute;
+  top: auto;
+  left: 29%;
+  width:40%;
+  height: 50px;
+  line-height: 0px;
+}
+.card{
+  position: absolute;
+  top: 125px;
+  left: 30%;
+  width: 30%;
+  height: 80%;
+  padding:3% 3% 3% 3%;
+  border: solid 1.2pt #ff6fdb;
+  border-radius: 15pt;
+  overflow: scroll;
+}
+.cardcontent{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top:auto;
+  left:auto;
+  box-sizing: border-box;
+  overflow: scroll;
+}
+#novel{
+  font-weight: 900;
+  font-size: 50px;
+  text-transform: uppercase;
+  color: #dcff30;
+  letter-spacing: 2px;
+}
+#arthur{
+  font-weight: 600;
+  font-size: 20px;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+
+}

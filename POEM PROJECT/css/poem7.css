@@ -1,0 +1,67 @@
+body{
+  font-family: 'Noticia Text', serif;
+  color:#2f242b;
+  line-height: normal;
+  letter-spacing: px;
+  text-align: justify;
+  background-color: #d9cad3;
+
+}
+.container1{
+  position: absolute;
+  width:300px;
+  height: 500px;
+  text-align: justify;
+  padding:10px;
+  top: 230px;
+  left: calc(40% - 300px);
+
+}
+.container2{
+  position: absolute;
+  width:300px;;
+  height: 500px;
+  text-align: justify;
+  padding:10px;
+  top: 230px;
+  left: calc(40% + 300px);
+}
+.circle1{
+  position: absolute;
+  width:20px;
+  height:20px;
+  background-color: #6f4059;
+  border-radius: 100px;
+  left: 550px;
+  top:120px;
+  z-index: 1;
+}
+.circle2{
+  position: absolute;
+  width:20px;
+  height:20px;
+  background-color: #6f4059;
+  border-radius: 100px;
+  left: 900px;
+  top:120px;
+  z-index: 1;
+}
+#novel{
+position: absolute;
+font-family: 'La Belle Aurore', cursive;
+font-size: 100px;
+color:#6e4b62;
+letter-spacing: 5px;
+top: -50px;
+left: 42%;
+
+}
+#arthur{
+  position: absolute;
+  line-height: 60px;
+  font-size: 10px;
+  letter-spacing: 1px;
+  top: 150px;
+  left: 47%;
+
+}
